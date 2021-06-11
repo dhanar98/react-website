@@ -8,11 +8,11 @@
           },
           {
             "NavName": "Services",
-            "NavLink": "#2"
+            "NavLink": "#services"
           },
           {
             "NavName": "About",
-            "NavLink": "#3"
+            "NavLink": "#about"
           },
           {
             "NavName": "Team",

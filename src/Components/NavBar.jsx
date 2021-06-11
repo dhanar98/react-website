@@ -1,5 +1,6 @@
 import '../css/NavBar.css';
 import logo from '../logo.svg';
+
 const NavBar = (props) => {
     return(
      <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -13,8 +14,8 @@ const NavBar = (props) => {
                  props.navbar.map((navitem) => {
                      const {NavName,NavLink} = navitem;
                      return(
-                        <li className ="nav-link"href={NavLink}>
-                            {NavName}
+                        <li className ="nav-link" >
+                           <a href={NavLink}>{NavName}</a>
                         </li>
                      );
                  })

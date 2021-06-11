@@ -23,7 +23,7 @@ const AboutSection = (props) => {
                                      <div className="text-center text-lg-start">
                                         <a href="#1" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                                           <span>Read More</span>
-                                            <i class="bi bi-arrow-right"></i>
+                                          <i className="ri-arrow-right-line"></i>
                                         </a>
                                      </div>
                                  </div>
