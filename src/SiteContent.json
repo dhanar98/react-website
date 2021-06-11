@@ -1,0 +1,123 @@
+{
+    "SiteContent": [
+      {
+        "NavLinks": [
+          {
+            "NavName": "Home",
+            "NavLink": "#1"
+          },
+          {
+            "NavName": "Services",
+            "NavLink": "#2"
+          },
+          {
+            "NavName": "About",
+            "NavLink": "#3"
+          },
+          {
+            "NavName": "Team",
+            "NavLink": "#4"
+          },
+          {
+            "NavName": "Blog",
+            "NavLink": "#5"
+          },
+          {
+            "NavName": "Portfolio",
+            "NavLink": "#6"
+          },
+          {
+            "NavName": "DropDown",
+            "NavLink": "#7"
+          },
+          {
+            "NavName": "Contact",
+            "NavLink": "#8"
+          },
+          {
+            "NavName": "Get Started",
+            "NavLink": "#9"
+          }
+        ],
+        "HeroSection":[
+          {
+            "Heading" : "We offer modern solutions for growing your business",
+            "SubHeading" : "We are team of talented designers making websites with Bootstrap",
+            "ImgUrl" : "https://bootstrapmade.com/demo/templates/FlexStart/assets/img/hero-img.png"
+          }
+        ],
+        "AboutSection":[
+          {
+            "Heading" : "Who We Are",
+            "SubHeading" : "We are team of talented designers making websites with Bootstrap",
+            "paragraph" : "Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.",
+            "ImgUrl" : "https://bootstrapmade.com/demo/templates/FlexStart/assets/img/about.jpg"   
+          } 
+        ],
+        "ValueSection":[
+            {
+                "Title":"OUR VALUES",
+                "Description" : "Odit est perspiciatis laborum et dicta",
+                "ValueCards" :[
+                    {
+                      "CardTitile":"Ad cupiditate sed est odio",
+                      "CardImgUrl":"https://bootstrapmade.com/demo/templates/FlexStart/assets/img/values-1.png",
+                      "CardDescrpition":"Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.",
+                      "CardClass":"col-lg-4"
+                    },
+                    {
+                      "CardTitile":"Voluptatem voluptatum alias",
+                      "CardImgUrl":"https://bootstrapmade.com/demo/templates/FlexStart/assets/img/values-2.png",
+                      "CardDescrpition":"Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.",
+                      "CardClass":"col-lg-4 mt-4 mt-lg-0"
+                    },
+                    {
+                      "CardTitile":"Fugit cupiditate alias nobis.",
+                      "CardImgUrl":"https://bootstrapmade.com/demo/templates/FlexStart/assets/img/values-3.png",
+                      "CardDescrpition":"Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.",
+                      "CardClass":"col-lg-4 mt-4 mt-lg-0"
+                    }
+                ]
+            }
+        ],
+        "ServiceSection":[
+            {
+                "Title":"OUR SERVICES",
+                "Description" : "Veritatis et dolores facere numquam et praesentium",
+                "ServiceCards" :[
+                    {
+                      "CardTitile":"Nesciunt Mete",
+                      "CardDescrpition":"Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+                      "CardClass":"service-box blue"
+                    },
+                    {
+                        "CardTitile":"Nesciunt Mete",
+                        "CardDescrpition":"Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+                        "CardClass":"service-box orange"
+                    },
+                    {
+                        "CardTitile":"Nesciunt Mete",
+                        "CardDescrpition":"Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+                        "CardClass":"service-box green"
+                    },
+                    {
+                        "CardTitile":"Nesciunt Mete",
+                        "CardDescrpition":"Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+                        "CardClass":"service-box red"
+                    },
+                    {
+                        "CardTitile":"Nesciunt Mete",
+                        "CardDescrpition":"Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+                        "CardClass":"service-box purple"
+                    },
+                    {
+                        "CardTitile":"Nesciunt Mete",
+                        "CardDescrpition":"Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.",
+                        "CardClass":"service-box pink"
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }

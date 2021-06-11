@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import SiteData from './SiteContent';
+import NavBar from './Components/NavBar';
+import HeroSection from './Components/HeroSection';
+import AboutSection from './Components/AboutSection';
+import ValueSection from './Components/ValueSection';
+import ServiceSection from './Components/ServiceSection';
 
-function App() {
+const NavbarData = SiteData.SiteContent[0].NavLinks;
+const HeroData = SiteData.SiteContent[0].HeroSection;
+const AboutData = SiteData.SiteContent[0].AboutSection;
+const ValueData = SiteData.SiteContent[0].ValueSection;
+const ServiceData = SiteData.SiteContent[0].ServiceSection;
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header id="header" class="header fixed-top">
+        <NavBar navbar={NavbarData}/>
       </header>
-    </div>
+      <HeroSection hero={HeroData}/>
+      <main id="main">
+         <AboutSection about={AboutData}/>
+         <ValueSection value={ValueData}/>
+         <ServiceSection service={ServiceData}/>
+      </main>
+    </>
   );
 }
 
