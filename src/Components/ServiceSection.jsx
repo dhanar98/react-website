@@ -37,6 +37,7 @@ const ServiceSection = (props) =>{
                                         )
                                     })
                                 }
+                                <a href="#about" className="btn btn-primary w-25 align-items-center d-flex justify-content-center">About Us</a>
                             </div>
                           </>
                       )
