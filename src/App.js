@@ -5,12 +5,14 @@ import HeroSection from './Components/HeroSection';
 import AboutSection from './Components/AboutSection';
 import ValueSection from './Components/ValueSection';
 import ServiceSection from './Components/ServiceSection';
+import Contact from './Components/Contact';
 
 const NavbarData = SiteData.SiteContent[0].NavLinks;
 const HeroData = SiteData.SiteContent[0].HeroSection;
 const AboutData = SiteData.SiteContent[0].AboutSection;
 const ValueData = SiteData.SiteContent[0].ValueSection;
 const ServiceData = SiteData.SiteContent[0].ServiceSection;
+const ContactData = SiteData.SiteContent[0].Contact;
 
 const App = () => {
   return (
@@ -23,6 +25,7 @@ const App = () => {
          <AboutSection about={AboutData}/>
          <ValueSection value={ValueData}/>
          <ServiceSection service={ServiceData}/>
+         <Contact detail={ContactData}/>
       </main>
     </>
   );
