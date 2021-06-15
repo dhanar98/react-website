@@ -117,6 +117,34 @@
                     }
                 ]
             }
+        ],
+        "Contact":[
+           {
+             "Title":"CONTACT",
+             "Description" : "Contact Us",
+             "ContactDetails" :[
+               {
+                 "Icon":"ri-map-pin-line",
+                 "Title":"Address",
+                 "Details":"A108 Adam Street,New York, NY 535022"
+               },
+               {
+                "Icon":"ri-phone-line",
+                "Title":"Call Us",
+                "Details":"+1 5589 55488 55 +1 6678 254445 41"
+              },
+              {
+                "Icon":"ri-mail-line",
+                "Title":"Email Us",
+                "Details":"info@example.com"
+              },
+              {
+                "Icon":"ri-time-line",
+                "Title":"Open Hours",
+                "Details":"Monday - Friday 9:00AM - 05:00PM"
+              }
+             ]              
+           }
         ]
       }
     ]
